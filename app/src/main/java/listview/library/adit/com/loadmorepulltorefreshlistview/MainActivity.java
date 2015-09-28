@@ -1,6 +1,7 @@
 package listview.library.adit.com.loadmorepulltorefreshlistview;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -27,31 +28,38 @@ public class MainActivity extends ActionBarActivity {
             public void loadMoreData() {
                 loadMore();
                 Log.e("", "loadMoreData()");
-                listCustomAdapter.notifyDataSetChanged();
             }
         });
     }
     private void initData(){
-//        try {
-//            Thread.sleep(3000);
-            for (int x=0;x<30;x++){
-                arrayList.add(x+"");
+        loadPullListView.onLoadingData();
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                for (int x = 0; x < 30; x++) {
+                    arrayList.add(x + "");
+                }
+                Log.e("", "LOADING DATA");
+                listCustomAdapter.notifyDataSetChanged();
+                loadPullListView.onLoadDataSuccess();
             }
-            Log.e("", "LOADING DATA");
-            loadPullListView.onLoadDataFailed();
-//        } catch(InterruptedException ex) {
-//            Thread.currentThread().interrupt();
-//        }
-
+        }, 5000);
 
     }
 
     private void loadMore(){
-//        for (int x=0;x<30;x++){
-//            arrayList.add(x+"");
-//        }
-//        Log.e("","LOADING DATA");
-        loadPullListView.onLoadMoreDataFailed();
+        loadPullListView.onLoadingData();
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                for (int x = 0; x < 30; x++) {
+                    arrayList.add(x + "");
+                }
+                Log.e("", "LOADING DATA");
+                listCustomAdapter.notifyDataSetChanged();
+                loadPullListView.onLoadDataSuccess();
+            }
+        }, 5000);
     }
 
     @Override

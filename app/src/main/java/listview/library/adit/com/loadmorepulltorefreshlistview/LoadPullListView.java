@@ -1,6 +1,7 @@
 package listview.library.adit.com.loadmorepulltorefreshlistview;
 
 import android.content.Context;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -10,12 +11,11 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.ProgressBar;
-import android.widget.RelativeLayout;
 
 /**
  * Created by adityaprasetio on 9/28/15.
  */
-public class LoadPullListView extends RelativeLayout {
+public class LoadPullListView extends SwipeRefreshLayout implements SwipeRefreshLayout.OnRefreshListener{
     private ListView listView;
     private LinearLayout llFailed;
     private LoadMoreData loadMoreData;
@@ -25,6 +25,7 @@ public class LoadPullListView extends RelativeLayout {
     private ProgressBar progressBar;
     private LinearLayout llBottom;
     private Button btReload;
+    private SwipeRefreshLayout swipeRefreshLayout;
 
 
     public LoadPullListView(Context context) {
@@ -38,15 +39,17 @@ public class LoadPullListView extends RelativeLayout {
         mInflater = LayoutInflater.from(context);
         initView();
     }
-
-    public LoadPullListView(Context context, AttributeSet attrs, int defStyleAttr) {
-        super(context, attrs, defStyleAttr);
-        mInflater = LayoutInflater.from(context);
-        initView();
-    }
+//
+//    public LoadPullListView(Context context, AttributeSet attrs, int defStyleAttr) {
+//        super(context, attrs, defStyleAttr);
+//        mInflater = LayoutInflater.from(context);
+//        initView();
+//    }
 
     private void initView(){
         View v=mInflater.inflate(R.layout.view_load_pull_listview, this, true);
+        swipeRefreshLayout = (SwipeRefreshLayout) v.findViewById(R.id.swipe_container);
+        swipeRefreshLayout.setOnRefreshListener(this);
         listView=(ListView)v.findViewById(R.id.listView);
         llFailed=(LinearLayout)v.findViewById(R.id.llFailed);
         progressBar=(ProgressBar)v.findViewById(R.id.progressBar);
@@ -84,13 +87,15 @@ public class LoadPullListView extends RelativeLayout {
         });
     }
 
-    private void onLoadingData(){
+    public void onLoadingData(){
+        swipeRefreshLayout.setRefreshing(true);
         btReload.setVisibility(View.GONE);
         progressBar.setVisibility(View.VISIBLE);
         llBottom.setVisibility(View.VISIBLE);
     }
 
     public void onLoadDataSuccess(){
+        swipeRefreshLayout.setRefreshing(false);
         listView.setVisibility(View.VISIBLE);
         llFailed.setVisibility(View.GONE);
         isLoadingData=false;
@@ -98,18 +103,25 @@ public class LoadPullListView extends RelativeLayout {
     }
 
     public void onLoadDataFailed(){
+        swipeRefreshLayout.setRefreshing(false);
         listView.setVisibility(View.GONE);
         llFailed.setVisibility(View.VISIBLE);
         isLoadingData=false;
     }
 
     public void onLoadMoreDataFailed(){
+        swipeRefreshLayout.setRefreshing(false);
         listView.setVisibility(View.VISIBLE);
         llFailed.setVisibility(View.GONE);
         isLoadingData=false;
         llBottom.setVisibility(View.VISIBLE);
         btReload.setVisibility(View.VISIBLE);
         progressBar.setVisibility(View.GONE);
+    }
+
+    @Override
+    public void onRefresh() {
+        this.getLoadMoreData().loadMoreData();
     }
 
     public interface LoadMoreData{
