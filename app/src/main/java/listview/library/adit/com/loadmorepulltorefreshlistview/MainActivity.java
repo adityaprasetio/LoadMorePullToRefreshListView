@@ -1,11 +1,10 @@
 package listview.library.adit.com.loadmorepulltorefreshlistview;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.SimpleAdapter;
 
 import java.util.ArrayList;
 
@@ -26,19 +25,33 @@ public class MainActivity extends ActionBarActivity {
         loadPullListView.setLoadMoreData(new LoadPullListView.LoadMoreData() {
             @Override
             public void loadMoreData() {
-                initData();
-                Log.e("","loadMoreData()");
+                loadMore();
+                Log.e("", "loadMoreData()");
                 listCustomAdapter.notifyDataSetChanged();
-
             }
         });
     }
     private void initData(){
-        for (int x=0;x<30;x++){
-            arrayList.add(x+"");
-        }
-        Log.e("","LOADING DATA");
-        loadPullListView.onLoadDataSuccess();
+//        try {
+//            Thread.sleep(3000);
+            for (int x=0;x<30;x++){
+                arrayList.add(x+"");
+            }
+            Log.e("", "LOADING DATA");
+            loadPullListView.onLoadDataFailed();
+//        } catch(InterruptedException ex) {
+//            Thread.currentThread().interrupt();
+//        }
+
+
+    }
+
+    private void loadMore(){
+//        for (int x=0;x<30;x++){
+//            arrayList.add(x+"");
+//        }
+//        Log.e("","LOADING DATA");
+        loadPullListView.onLoadMoreDataFailed();
     }
 
     @Override
