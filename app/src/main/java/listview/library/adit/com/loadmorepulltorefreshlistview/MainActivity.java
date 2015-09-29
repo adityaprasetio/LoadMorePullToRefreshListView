@@ -2,18 +2,25 @@ package listview.library.adit.com.loadmorepulltorefreshlistview;
 
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 import java.util.ArrayList;
 
+import listview.library.adit.com.loadmorepulltorefreshlistview.utility.CameraUtility;
+import roboguice.activity.RoboActionBarActivity;
+import roboguice.inject.ContentView;
+import roboguice.inject.InjectView;
 
-public class MainActivity extends ActionBarActivity {
+@ContentView(R.layout.activity_main)
+public class MainActivity extends RoboActionBarActivity {
     private LoadPullListView loadPullListView;
     private ArrayList<String>arrayList=new ArrayList<>();
     private ListCustomAdapter listCustomAdapter;
+    @InjectView(R.id.btCamera)Button btCamera;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +35,13 @@ public class MainActivity extends ActionBarActivity {
             public void loadMoreData() {
                 loadMore();
                 Log.e("", "loadMoreData()");
+            }
+        });
+
+        btCamera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CameraUtility.getInstance().takePicture(MainActivity.this);
             }
         });
     }

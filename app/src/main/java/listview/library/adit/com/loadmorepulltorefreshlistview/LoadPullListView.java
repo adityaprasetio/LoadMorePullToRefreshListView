@@ -127,7 +127,7 @@ public class LoadPullListView extends SwipeRefreshLayout implements SwipeRefresh
 
     @Override
     public void onRefresh() {
-        this.getLoadMoreData().loadMoreData();
+        loadMoreData.loadMoreData();
     }
 
     public interface LoadMoreData{

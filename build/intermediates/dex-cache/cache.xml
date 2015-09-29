@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="/Users/Admin123/.gradle/caches/modules-2/files-2.1/org.roboguice/roboguice/3.0.1/24e814f35d5cc28eaa7e9f07a50ea69deeb2b544/roboguice-3.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="24e814f35d5cc28eaa7e9f07a50ea69deeb2b544">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/roboguice-3.0.1-0776d5253e7ccdfb84e13e41151907072c7d371a.jar" />
+    </item>
+    <item
         jar="/Volumes/Macintosh_HD_2/program/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
