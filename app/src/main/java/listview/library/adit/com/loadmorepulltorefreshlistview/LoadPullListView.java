@@ -50,6 +50,7 @@ public class LoadPullListView extends SwipeRefreshLayout implements SwipeRefresh
         View v=mInflater.inflate(R.layout.view_load_pull_listview, this, true);
         swipeRefreshLayout = (SwipeRefreshLayout) v.findViewById(R.id.swipe_container);
         swipeRefreshLayout.setOnRefreshListener(this);
+//        swipeRefreshLayout.canChildScrollUp();
         listView=(ListView)v.findViewById(R.id.listView);
         llFailed=(LinearLayout)v.findViewById(R.id.llFailed);
         progressBar=(ProgressBar)v.findViewById(R.id.progressBar);
@@ -72,6 +73,11 @@ public class LoadPullListView extends SwipeRefreshLayout implements SwipeRefresh
 
             @Override
             public void onScroll(AbsListView lw, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+//                if (firstVisibleItem == 0)
+//                    swipeRefreshLayout.setEnabled(true);
+//                else
+//                    swipeRefreshLayout.setEnabled(false);
+
                 Log.e("", "==========.....>>>>>firstVisibleItem " + firstVisibleItem);
                 Log.e("", "==========.....>>>>>visibleItemCount " + visibleItemCount);
                 Log.e("", "==========.....>>>>>totalItemCount " + totalItemCount);
@@ -158,5 +164,13 @@ public class LoadPullListView extends SwipeRefreshLayout implements SwipeRefresh
 
     public void setLoadMoreData(LoadMoreData loadMoreData) {
         this.loadMoreData = loadMoreData;
+    }
+
+    @Override
+    public boolean canChildScrollUp() {
+        if (listView != null)
+            return listView.canScrollVertically(-1);
+
+        return false;
     }
 }
