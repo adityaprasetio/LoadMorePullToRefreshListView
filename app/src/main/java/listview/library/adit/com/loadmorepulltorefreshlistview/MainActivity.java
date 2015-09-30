@@ -11,6 +11,7 @@ import android.widget.Button;
 import java.util.ArrayList;
 
 import listview.library.adit.com.loadmorepulltorefreshlistview.utility.CameraUtility;
+import listview.library.adit.com.loadmorepulltorefreshlistview.view.ListItem;
 import roboguice.activity.RoboActionBarActivity;
 import roboguice.inject.ContentView;
 import roboguice.inject.InjectView;
@@ -22,13 +23,16 @@ public class MainActivity extends RoboActionBarActivity {
     private ListCustomAdapter listCustomAdapter;
     @InjectView(R.id.btCamera)Button btCamera;
 
+    private ListItem listItem;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         loadPullListView=(LoadPullListView)findViewById(R.id.view);
         initData();
-        listCustomAdapter=new ListCustomAdapter(this,arrayList);
+        listItem=new ListItem();
+        listCustomAdapter=new ListCustomAdapter(this,arrayList,listItem);
         loadPullListView.getListView().setAdapter(listCustomAdapter);
         loadPullListView.setLoadMoreData(new LoadPullListView.LoadMoreData() {
             @Override

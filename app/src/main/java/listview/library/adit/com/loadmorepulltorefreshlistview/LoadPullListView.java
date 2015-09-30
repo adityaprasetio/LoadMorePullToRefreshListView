@@ -1,5 +1,6 @@
 package listview.library.adit.com.loadmorepulltorefreshlistview;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.AttributeSet;
@@ -166,6 +167,7 @@ public class LoadPullListView extends SwipeRefreshLayout implements SwipeRefresh
         this.loadMoreData = loadMoreData;
     }
 
+    @SuppressLint("NewApi")
     @Override
     public boolean canChildScrollUp() {
         if (listView != null)

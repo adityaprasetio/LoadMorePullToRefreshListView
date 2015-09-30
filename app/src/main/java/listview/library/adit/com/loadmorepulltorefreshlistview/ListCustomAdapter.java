@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -13,14 +12,14 @@ import java.util.ArrayList;
  * Created by adityaprasetio on 9/28/15.
  */
 public class ListCustomAdapter extends BaseAdapter {
-    private ArrayList<String>arrayList=new ArrayList<>();
+    private ArrayList<?>arrayList=new ArrayList<>();
     private Context context;
-    private LayoutInflater mInflater;
+    private RowView rowView;
 
-    public ListCustomAdapter(Context context,ArrayList<String>arrayList) {
+    public ListCustomAdapter(Context context,ArrayList<?>arrayList, RowView rowView) {
         this.context=context;
         this.arrayList=arrayList;
-        mInflater = LayoutInflater.from(context);
+        this.rowView=rowView;
     }
 
     @Override
@@ -40,9 +39,11 @@ public class ListCustomAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        convertView=mInflater.inflate(R.layout.list_item, null);
-        TextView textView=(TextView)convertView.findViewById(R.id.textView);
-        textView.setText(arrayList.get(position));
+        convertView=rowView.getRow(context, arrayList.get(position));
         return convertView;
+    }
+
+    public interface RowView{
+        public View getRow(Context context, Object o);
     }
 }
