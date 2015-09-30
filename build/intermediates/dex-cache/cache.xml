@@ -30,6 +30,27 @@
         <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-0087f81e7effa4a93a2c9a85a3693613faf314ec.jar" />
     </item>
     <item
+        jar="/Users/Admin123/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6-0ebf7df6254b8c68e06a6c5ae69e77d4cd3832e9.jar" />
+    </item>
+    <item
+        jar="/Users/Admin123/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/gson-2.2.4-6021c377721290a92a547509f8a5cf7995e70c30.jar" />
+    </item>
+    <item
+        jar="/Users/Admin123/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9-404b3af7aa1f795ec9f1a1cce7fade98af4ed9fd.jar" />
+    </item>
+    <item
         jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"

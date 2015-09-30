@@ -10,6 +10,7 @@ import android.widget.Button;
 
 import java.util.ArrayList;
 
+import listview.library.adit.com.loadmorepulltorefreshlistview.model.ModelListing;
 import listview.library.adit.com.loadmorepulltorefreshlistview.utility.CameraUtility;
 import listview.library.adit.com.loadmorepulltorefreshlistview.view.ListItem;
 import roboguice.activity.RoboActionBarActivity;
@@ -48,6 +49,14 @@ public class MainActivity extends RoboActionBarActivity {
                 CameraUtility.getInstance().takePicture(MainActivity.this);
             }
         });
+
+//        Row row=new Row();
+//        row.httpGet("http://192.168.1.114:3000/rows");
+
+        ModelListing modelListing=new ModelListing();
+        modelListing.httpGet("http://192.168.1.114:3000/db");
+
+
     }
     private void initData(){
         loadPullListView.onLoadingData();
