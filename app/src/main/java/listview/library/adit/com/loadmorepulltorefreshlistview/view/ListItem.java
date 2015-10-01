@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import listview.library.adit.com.loadmorepulltorefreshlistview.ListCustomAdapter;
 import listview.library.adit.com.loadmorepulltorefreshlistview.R;
+import listview.library.adit.com.loadmorepulltorefreshlistview.model.Row;
 import roboguice.inject.ContentView;
 import roboguice.inject.InjectView;
 
@@ -32,7 +33,7 @@ public class ListItem implements ListCustomAdapter.RowView{
         mInflater = LayoutInflater.from(context);
         v=mInflater.inflate(R.layout.list_item, null);
         TextView textView=(TextView)v.findViewById(R.id.textView);
-        textView.setText((String)o);
+        textView.setText(((Row)o).getTitle());
         return v;
     }
 }

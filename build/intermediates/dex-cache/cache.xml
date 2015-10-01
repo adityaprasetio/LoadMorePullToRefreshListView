@@ -2,13 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/Users/Admin123/.gradle/caches/modules-2/files-2.1/org.roboguice/roboguice/3.0.1/24e814f35d5cc28eaa7e9f07a50ea69deeb2b544/roboguice-3.0.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="24e814f35d5cc28eaa7e9f07a50ea69deeb2b544">
-        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/roboguice-3.0.1-0776d5253e7ccdfb84e13e41151907072c7d371a.jar" />
-    </item>
-    <item
         jar="/Volumes/Macintosh_HD_2/program/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -16,11 +9,60 @@
         <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-330d10d362c1789b10565a70a568265d7a466a35.jar" />
     </item>
     <item
-        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-4b2feda48faa95bd985228d82429c2109cb976d5.jar" />
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-72461668110763519d366a421926ec4086126930.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-aa01a4d6e1666e23d5a61cab0b244bb02c5abff8.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-0afacd1a8a86578c02aea7cc06878866b19cff0a.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-fad203768fea7e7a09f67b70ee0817eb0cd6e56b.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-c9194f054489d419dadba4c3582c46c4ee665f74.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-61f0db932d89fdc46822d0135d2cf8e9e21ea287.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-58fcd205d9218f9a301a7c4abbcee4cd9a6151a4.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-c00da696b02b2c75f0f8148e5e3ef0ecaacfa820.jar" />
     </item>
     <item
         jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
@@ -30,25 +72,165 @@
         <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-0087f81e7effa4a93a2c9a85a3693613faf314ec.jar" />
     </item>
     <item
-        jar="/Users/Admin123/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jar="/Users/Admin123/.gradle/caches/modules-2/files-2.1/com.squareup/otto/1.3.8/cf615176cd1177edf71d3c9605f8dc148fede6be/otto-1.3.8.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
-        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6-0ebf7df6254b8c68e06a6c5ae69e77d4cd3832e9.jar" />
+        sha1="cf615176cd1177edf71d3c9605f8dc148fede6be">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/otto-1.3.8-2ec16e807d65704c77f2f08deb4789b3300ccf45.jar" />
     </item>
     <item
-        jar="/Users/Admin123/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jar="/Users/Admin123/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/gson-2.2.4-6021c377721290a92a547509f8a5cf7995e70c30.jar" />
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/gson-2.3.1-657e4b08b66004d68ac5174ea5772b83c444bbcb.jar" />
     </item>
     <item
-        jar="/Users/Admin123/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
-        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9-404b3af7aa1f795ec9f1a1cce7fade98af4ed9fd.jar" />
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-a2f66d4a3b817407821e6aae1f18b3de5cf8993d.jar" />
+    </item>
+    <item
+        jar="/Users/Admin123/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.2.0/c0b52915a48fa91b1b94a28d4a2997bac5f524df/okio-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/okio-1.2.0-371582aa0acb2d100eb4f0a4d649f74d02230392.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-0425f94979fa3d28154c8c5a29891ae1544296f1.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-f381fd4a7928a40148cbff2c6c4d5f4e3c76b238.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-231926f1ac204d057254b23bf44f8bba7025e380.jar" />
+    </item>
+    <item
+        jar="/Users/Admin123/.gradle/caches/modules-2/files-2.1/org.roboguice/roboguice/3.0.1/24e814f35d5cc28eaa7e9f07a50ea69deeb2b544/roboguice-3.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="24e814f35d5cc28eaa7e9f07a50ea69deeb2b544">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/roboguice-3.0.1-0776d5253e7ccdfb84e13e41151907072c7d371a.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-4b2feda48faa95bd985228d82429c2109cb976d5.jar" />
+    </item>
+    <item
+        jar="/Users/Admin123/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-bad9f04adba57a59d83237ad6f5c450365a83a5f.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-35b2775b57a35f1244e0baa18569865543255f96.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-bcf1b57018e92463ba70ce72d8be77fe504d4c6c.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-ddef9e6b3673e1c1d195cb2c32fe89994ef006e6.jar" />
+    </item>
+    <item
+        jar="/Users/Admin123/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.2.0/959c454243581fdf730abfd4f4745441724bcf2c/okhttp-2.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/okhttp-2.2.0-4331ebad76054e2cbdca5b915a7788c6df4cc1b6.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-b4bb11156bdd1041f0415921bed34736589486de.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-4981d2dbe954ccc2a441e2782470127f5ae54f40.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-9e9a0329c537fedb6321ae303db6cec20bc99044.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-cf232c28f98e10a4d67fc492d0d74de7242568a0.jar" />
+    </item>
+    <item
+        jar="/Users/Admin123/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.0.0/afe8399d352713b66e597e9670c741d1e60ae923/okhttp-urlconnection-2.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="afe8399d352713b66e597e9670c741d1e60ae923">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.0.0-914735c4921fb4f436226d8a099eeaa0f3fbcbe7.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-3ab0dfd671cd3ffae0a8b81fb66f2ebbde27e7bd.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-5924ec7a3be7c24be7eb121cd28c3751a5683258.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-83b139d2ee17b8fe5b05819ae5e515f1c0c5f852.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.8.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/pre-dexed/debug/classes-5e2c8422e1852e9707eda2f86dfd9715555f29b6.jar" />
     </item>
     <item
         jar="/Volumes/Macintosh_HD_2/jobs/workspace/LoadMorePullToRefreshListView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
